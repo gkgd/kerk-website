@@ -12,7 +12,23 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
 Hier kan jy soek na spesifieke preke gebaseer op die text gedeelte en ander sleutelwoorde. All ons vorige preke is ook op ons YouTube kanaal beskikbaar:
 <button>Ons Kanaal</button>
 <br/>
+<form action="/action_page.php">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  <label for="country">Country</label>
+  <select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+  </select>
+
+  <input type="submit" value="Submit">
+</form>
+  
 <div class="row">
   <div class="col-md-6 mb-5">
     <h2>2022</h2>
