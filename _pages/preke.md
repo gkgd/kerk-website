@@ -9,24 +9,17 @@ Teken in op ons YouTube kanaal om toegang te kry na die preke soos hulle beskikb
 <br/>
 
 ## Vorige Preke
-Hier kan jy soek na spesifieke preke gebaseer op die text gedeelte en ander sleutelwoorde. All ons vorige preke is ook op ons YouTube kanaal beskikbaar:
-<button>Ons Kanaal</button>
+Hier kan jy soek na spesifieke preke gebaseer op die text gedeelte en ander sleutelwoorde.
 <br/>
 <form action="/action_page.php">
-  <label for="fname">First Name</label>
-  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-  <label for="country">Country</label>
-  <select id="country" name="country">
+  <label for="boek">Boek</label>
+  <select id="boek" name="cbxboek">
     <option value="australia">Australia</option>
     <option value="canada">Canada</option>
     <option value="usa">USA</option>
   </select>
-
-  <input type="submit" value="Submit">
+  <label for="sleutelwoorde">Sleutelwoorde</label>
+  <input type="text" id="sleutelwoorde" name="txtkeywords" placeholder="Tik hier sleutelwoorde...">
 </form>
   
 <div class="row">
